@@ -8,7 +8,7 @@ require 'uri'
 module Postmark
   module SpamCheck
     class Client
-      SPAM_CHECK_URI = "http://spamcheck.postmarkapp.com/filter"
+      SPAM_CHECK_URI = "https://spamcheck.postmarkapp.com/filter"
 
       def initialize(timeout = 60)
         @timeout = timeout
